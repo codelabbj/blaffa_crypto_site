@@ -2470,13 +2470,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ThemePr
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$DashboardHeader$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/DashboardHeader.tsx [app-client] (ecmascript)");
 //import Advertisement_Hero from '@/components/Advertisement_Hero';
 //import { ArrowDownLeft, ArrowUpRight, Ticket, CreditCard } from 'lucide-react';
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDownLeft$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-down-left.js [app-client] (ecmascript) <export default as ArrowDownLeft>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-up-right.js [app-client] (ecmascript) <export default as ArrowUpRight>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gift$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Gift$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/gift.js [app-client] (ecmascript) <export default as Gift>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$coins$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Coins$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/coins.js [app-client] (ecmascript) <export default as Coins>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 //import ThemeToggle from '../../components/ThemeToggle';
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Advertisement_Hero$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Advertisement_Hero.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -2526,14 +2523,14 @@ function Dashboard() {
                 className: "absolute top-20 -left-10 w-40 h-40 bg-blue-700/20 rounded-full blur-3xl animate-pulse-slow"
             }, void 0, false, {
                 fileName: "[project]/src/app/dashboard/page.tsx",
-                lineNumber: 60,
+                lineNumber: 53,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute bottom-20 right-10 w-60 h-60 bg-blue-700/10 rounded-full blur-3xl animate-pulse-slow"
             }, void 0, false, {
                 fileName: "[project]/src/app/dashboard/page.tsx",
-                lineNumber: 61,
+                lineNumber: 54,
                 columnNumber: 7
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2545,7 +2542,7 @@ function Dashboard() {
                             className: "w-16 h-16 border-4 border-gray-700 border-t-blue-500 rounded-full animate-spin"
                         }, void 0, false, {
                             fileName: "[project]/src/app/dashboard/page.tsx",
-                            lineNumber: 67,
+                            lineNumber: 60,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2553,23 +2550,23 @@ function Dashboard() {
                             children: "Loading Blaffa..."
                         }, void 0, false, {
                             fileName: "[project]/src/app/dashboard/page.tsx",
-                            lineNumber: 68,
+                            lineNumber: 61,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/dashboard/page.tsx",
-                    lineNumber: 66,
+                    lineNumber: 59,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/dashboard/page.tsx",
-                lineNumber: 65,
+                lineNumber: 58,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$DashboardHeader$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/dashboard/page.tsx",
-                lineNumber: 74,
+                lineNumber: 67,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -2583,7 +2580,7 @@ function Dashboard() {
                                 children: "Bienvenue sur Blaffa"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/dashboard/page.tsx",
-                                lineNumber: 80,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2591,25 +2588,25 @@ function Dashboard() {
                                 children: "Gérez vos finances en toute simplicité"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/dashboard/page.tsx",
-                                lineNumber: 81,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/dashboard/page.tsx",
-                        lineNumber: 79,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: `relative overflow-hidden rounded-3xl -mx-4 px-4 md:mx-0 md:px-8 py-4 md:py-8 `,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Advertisement_Hero$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/app/dashboard/page.tsx",
-                            lineNumber: 85,
+                            lineNumber: 78,
                             columnNumber: 10
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/dashboard/page.tsx",
-                        lineNumber: 84,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2623,14 +2620,14 @@ function Dashboard() {
                                         className: "hidden md:block absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/dashboard/page.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 87,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "hidden md:block absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full translate-y-12 -translate-x-12"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/dashboard/page.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 88,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2640,148 +2637,135 @@ function Dashboard() {
                                                 className: "flex gap-1 justify-center md:hidden",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/crypto",
+                                                        href: "/crypto?type=buy",
+                                                        className: "group relative flex-1 flex flex-col items-center justify-center p-2 transition-all duration-300 active:scale-95",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "w-12 h-12 rounded-lg bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center mb-1 group-active:scale-90 transition-transform shadow-lg shadow-green-500/25",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaArrowCircleUp"], {
+                                                                    className: "text-green-200 text-3xl drop-shadow"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
+                                                                    lineNumber: 97,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/dashboard/page.tsx",
+                                                                lineNumber: 95,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "font-medium text-[10px] ",
+                                                                children: t('Buy Crypto')
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/dashboard/page.tsx",
+                                                                lineNumber: 99,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/app/dashboard/page.tsx",
+                                                        lineNumber: 94,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: "/crypto?type=sell",
                                                         className: "group relative flex-1 flex flex-col items-center justify-center p-2 transition-all duration-300 active:scale-95",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "w-12 h-12 rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center mb-1 group-active:scale-90 transition-transform shadow-lg shadow-yellow-500/25",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$coins$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Coins$3e$__["Coins"], {
-                                                                    size: 20,
-                                                                    className: "text-white drop-shadow-sm"
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaArrowCircleDown"], {
+                                                                    className: "text-yellow-200 text-3xl drop-shadow"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 103,
+                                                                    lineNumber: 105,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                lineNumber: 102,
+                                                                lineNumber: 103,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "font-medium text-[10px] ",
-                                                                children: t("Crypto")
+                                                                children: t('Sell Crypto')
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                lineNumber: 105,
+                                                                lineNumber: 107,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/dashboard/page.tsx",
-                                                        lineNumber: 101,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/deposit",
-                                                        className: "group relative flex-1 flex flex-col items-center justify-center p-2 transition-all duration-300 active:scale-95",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "w-12 h-12 rounded-lg bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center mb-1 group-active:scale-90 transition-transform shadow-lg shadow-red-500/25",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {
-                                                                    size: 20,
-                                                                    className: "text-white drop-shadow-sm"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 110,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                lineNumber: 109,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "font-medium text-[10px] ",
-                                                                children: t("Deposit")
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                lineNumber: 112,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/app/dashboard/page.tsx",
-                                                        lineNumber: 108,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/withdraw",
-                                                        className: "group relative flex-1 flex flex-col items-center justify-center p-2 transition-all duration-300 active:scale-95",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "w-12 h-12 rounded-lg bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-1 group-active:scale-90 transition-transform shadow-lg shadow-blue-500/25",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDownLeft$3e$__["ArrowDownLeft"], {
-                                                                    size: 20,
-                                                                    className: "text-white drop-shadow-sm"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 117,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                lineNumber: 116,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "font-medium text-[10px] ",
-                                                                children: t("Withdraw")
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                lineNumber: 119,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/app/dashboard/page.tsx",
-                                                        lineNumber: 115,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/coupon",
-                                                        className: "group relative flex-1 flex flex-col items-center justify-center p-2 transition-all duration-300 active:scale-95",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "w-12 h-12 rounded-lg bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center mb-1 group-active:scale-90 transition-transform shadow-lg shadow-orange-500/25",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gift$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Gift$3e$__["Gift"], {
-                                                                    size: 20,
-                                                                    className: "text-white drop-shadow-sm"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 124,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                lineNumber: 123,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: "font-medium text-[10px] ",
-                                                                children: t("Coupon")
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                lineNumber: 126,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/app/dashboard/page.tsx",
-                                                        lineNumber: 122,
+                                                        lineNumber: 102,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/dashboard/page.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 92,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "hidden md:grid grid-cols-4 gap-4",
+                                                className: "hidden md:grid grid-cols-2 gap-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/crypto",
+                                                        href: "/crypto?type=buy",
+                                                        className: "bg-gradient-to-br from-green-400 to-green-600 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/15 transition-all duration-300 cursor-pointer group border border-white/5 hover:border-white/20",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "flex flex-col lg:flex-row lg:items-center lg:gap-3",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "relative mb-3 lg:mb-0",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300 shadow-lg shadow-green-500/25",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaArrowCircleUp"], {
+                                                                                className: "text-white text-2xl drop-shadow"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/src/app/dashboard/page.tsx",
+                                                                                lineNumber: 118,
+                                                                                columnNumber: 29
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/app/dashboard/page.tsx",
+                                                                            lineNumber: 117,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "absolute -top-1 -right-1 w-3 h-3 bg-green-300 rounded-full opacity-60 group-hover:opacity-80 transition-opacity"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/app/dashboard/page.tsx",
+                                                                            lineNumber: 120,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
+                                                                    lineNumber: 116,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-sm font-medium text-white/90 group-hover:text-white transition-colors",
+                                                                    children: "Buy Crypto"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
+                                                                    lineNumber: 122,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/app/dashboard/page.tsx",
+                                                            lineNumber: 115,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/dashboard/page.tsx",
+                                                        lineNumber: 114,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: "/crypto?type=sell",
                                                         className: "bg-gradient-to-br from-yellow-400 to-yellow-600 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/15 transition-all duration-300 cursor-pointer group border border-white/5 hover:border-white/20",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col lg:flex-row lg:items-center lg:gap-3",
@@ -2791,251 +2775,86 @@ function Dashboard() {
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300 shadow-lg shadow-yellow-500/25",
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$coins$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Coins$3e$__["Coins"], {
-                                                                                className: "w-6 h-6 text-white drop-shadow-sm"
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaArrowCircleDown"], {
+                                                                                className: "text-white text-2xl drop-shadow"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                                lineNumber: 137,
+                                                                                lineNumber: 132,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                            lineNumber: 136,
+                                                                            lineNumber: 131,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "absolute -top-1 -right-1 w-3 h-3 bg-yellow-300 rounded-full opacity-60 group-hover:opacity-80 transition-opacity"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                            lineNumber: 139,
+                                                                            lineNumber: 134,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 135,
+                                                                    lineNumber: 130,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: "text-sm font-medium text-white/90 group-hover:text-white transition-colors",
-                                                                    children: t("Crypto")
+                                                                    children: "Sell Crypto"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 141,
+                                                                    lineNumber: 136,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/dashboard/page.tsx",
-                                                            lineNumber: 134,
+                                                            lineNumber: 129,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/dashboard/page.tsx",
-                                                        lineNumber: 133,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/deposit",
-                                                        className: "bg-gradient-to-br from-red-400 to-red-600 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/15 transition-all duration-300 cursor-pointer group border border-white/5 hover:border-white/20",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex flex-col lg:flex-row lg:items-center lg:gap-3",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "relative mb-3 lg:mb-0",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "w-12 h-12 bg-gradient-to-br from-red-400 to-red-600 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300 shadow-lg shadow-red-500/25",
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {
-                                                                                className: "w-6 h-6 text-white drop-shadow-sm"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                                lineNumber: 151,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                            lineNumber: 150,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "absolute -top-1 -right-1 w-3 h-3 bg-red-300 rounded-full opacity-60 group-hover:opacity-80 transition-opacity"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                            lineNumber: 153,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 149,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-sm font-medium text-white/90 group-hover:text-white transition-colors",
-                                                                    children: t("Deposit")
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 155,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                            lineNumber: 148,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/dashboard/page.tsx",
-                                                        lineNumber: 147,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/withdraw",
-                                                        className: "bg-gradient-to-br from-blue-400 to-blue-600 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/15 transition-all duration-300 cursor-pointer group border border-white/5 hover:border-white/20",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex flex-col lg:flex-row lg:items-center lg:gap-3",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "relative mb-3 lg:mb-0",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300 shadow-lg shadow-blue-500/25",
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDownLeft$3e$__["ArrowDownLeft"], {
-                                                                                className: "w-6 h-6 text-white drop-shadow-sm"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                                lineNumber: 165,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                            lineNumber: 164,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "absolute -top-1 -right-1 w-3 h-3 bg-blue-300 rounded-full opacity-60 group-hover:opacity-80 transition-opacity"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                            lineNumber: 167,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 163,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-sm font-medium text-white/90 group-hover:text-white transition-colors",
-                                                                    children: t("Withdraw")
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 169,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                            lineNumber: 162,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/dashboard/page.tsx",
-                                                        lineNumber: 161,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/coupon",
-                                                        className: "bg-gradient-to-br from-orange-400 to-orange-600 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/15 transition-all duration-300 cursor-pointer group border border-white/5 hover:border-white/20",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex flex-col lg:flex-row lg:items-center lg:gap-3",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "relative mb-3 lg:mb-0",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300 shadow-lg shadow-orange-500/25",
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gift$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Gift$3e$__["Gift"], {
-                                                                                className: "w-6 h-6 text-white drop-shadow-sm"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                                lineNumber: 179,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                            lineNumber: 178,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "absolute -top-1 -right-1 w-3 h-3 bg-orange-300 rounded-full opacity-60 group-hover:opacity-80 transition-opacity"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                            lineNumber: 181,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 177,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-sm font-medium text-white/90 group-hover:text-white transition-colors",
-                                                                    children: t("Coupon")
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/dashboard/page.tsx",
-                                                                    lineNumber: 183,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/app/dashboard/page.tsx",
-                                                            lineNumber: 176,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/dashboard/page.tsx",
-                                                        lineNumber: 175,
+                                                        lineNumber: 128,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/dashboard/page.tsx",
-                                                lineNumber: 131,
+                                                lineNumber: 112,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/dashboard/page.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 90,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/dashboard/page.tsx",
-                                lineNumber: 93,
+                                lineNumber: 86,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/dashboard/page.tsx",
-                            lineNumber: 90,
+                            lineNumber: 83,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/dashboard/page.tsx",
-                        lineNumber: 88,
+                        lineNumber: 81,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/src/app/dashboard/page.tsx",
-                        lineNumber: 193,
+                        lineNumber: 146,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TransactionHistory$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/app/dashboard/page.tsx",
-                        lineNumber: 197,
+                        lineNumber: 150,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3050,14 +2869,14 @@ function Dashboard() {
                                     className: "absolute inset-0 rounded-full bg-green-400 animate-ping opacity-75"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/dashboard/page.tsx",
-                                    lineNumber: 207,
+                                    lineNumber: 160,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 rounded-full bg-green-500 animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/dashboard/page.tsx",
-                                    lineNumber: 208,
+                                    lineNumber: 161,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3068,7 +2887,7 @@ function Dashboard() {
                                     alt: "whatsapp"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/dashboard/page.tsx",
-                                    lineNumber: 211,
+                                    lineNumber: 164,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3079,41 +2898,41 @@ function Dashboard() {
                                             className: "absolute top-1/2 left-full transform -translate-y-1/2 border-4 border-transparent border-l-gray-900"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/dashboard/page.tsx",
-                                            lineNumber: 217,
+                                            lineNumber: 170,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/dashboard/page.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 168,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/dashboard/page.tsx",
-                            lineNumber: 200,
+                            lineNumber: 153,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/dashboard/page.tsx",
-                        lineNumber: 199,
+                        lineNumber: 152,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/app/dashboard/page.tsx",
-                        lineNumber: 222,
+                        lineNumber: 175,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/dashboard/page.tsx",
-                lineNumber: 77,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/dashboard/page.tsx",
-        lineNumber: 58,
+        lineNumber: 51,
         columnNumber: 5
     }, this);
 }

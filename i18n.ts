@@ -167,118 +167,7 @@ const resources = {
       "Mark as unread": "Mark as unread",
 
 
-      "Available Coupons": "Available Coupons",
-      "No Coupons Available":"No Coupons Available",
-      "Check back later!":"Check back later!",
-
-
-      // Withdraw Page translations
-      "Withdraw Funds":"Withdraw Funds",
-      
-      "Withdraw from your account": "Withdraw from your account",
-      "Please fill in all fields": "Please fill in all fields",
-      "Phone numbers do not match": "Phone numbers do not match",
-      "Withdrawal request submitted successfully!": "Withdrawal request submitted successfully!",
-      "Something went wrong. Please try again.": "Something went wrong. Please try again.",
-      "Network error. Please check your connection and try again.": "Network error. Please check your connection and try again.",
-     
-      "Take Note": "Take Note",
-      "The currency of your account must be in XOF": "The currency of your account must be in XOF",
-      "CITY": "CITY",
-      "STREET": "STREET",
-      "ID": "ID",
-      "Enter ID": "Enter ID",
-      "Withdrawal Code": "Withdrawal Code",
-      "Enter your withdrawal code": "Enter your withdrawal code",
-      
-      "Enter number": "Enter number",
-      "Confirm Number": "Confirm Number",
-      "Enter Confirm number": "Enter Confirm number",
-      "Network": "Network",
-      "Processing...": "Processing...",
-      "Submit my request": "Submit my request",
-
-      //Deposit Page translations
-      "Deposit Funds": "Deposit Funds",
-      "Select Network":"Select Network",
-      "Select Bet ID":"Select Bet ID",
-      "Enter Details":"Enter Details",
-      "Select Your Betting Platform":"Select Your Betting Platform",
-     
-      
-      "Back to Bet IDs":"Back to Bet IDs",
-      "Phone Number":"Phone Number",
-
-      "Submit":"Submit",
-
-      "Click to continue payment": "Click to continue payment",
-      
-      
-      
-      "Make deposits to your account": "Make deposits to your account",
-      "Make your deposits to your account here": "Make your deposits to your account here",
-      
-      "IMPORTANT": "IMPORTANT",
-      "Your account currency must be in XOF.": "Your account currency must be in XOF.",
-      
-      "Enter your ID": "Enter your ID",
-      "Enter or select your betting app ID" : "Enter or select your betting app ID",
-      "This is your 1xbet user ID": "This is your 1xbet user ID",
-      "Enter your betting app ID or select from saved IDs." : "Enter your betting app ID or select from saved IDs.",
-      "You are entering a new ID. Defaulting to 1xbet app." : "You are entering a new ID. Defaulting to 1xbet app.",
-      "Saved IDs": "Saved IDs",
-      "Selected App": "Select App id",
-      "Betting App ID" : "Betting App ID",
-      "Unknown App" : "Unknown ",
-      "Amount": "Amount",
-      "Enter deposit amount": "Enter deposit amount",
-
-      "Selected Bet ID":"Selected Bet ID",
-      
-      "Enter your mobile money number": "Enter your mobile money number",
-      "Your mobile money number": "Your mobile money number",
-      
-      "Please select a network": "Please select a network",
-      
-      "Proceed": "Proceed",
-      "Deposit successful! Transaction ID:": "Deposit successful! Transaction ID:",
-      "Failed to load necessary data. Please try again later.": "Failed to load necessary data. Please try again later.",
-      "Error fetching data:": "Error fetching data:",
-      "Error processing deposit:": "Error processing deposit:",
-      "Failed to process deposit. Please try again.": "Failed to process deposit. Please try again.",
-      "You must be logged in to access this feature.": "You must be logged in to access this feature.",
-
-      // Modal and Bet ID management translations
-      "Confirmer l'ID de pari": "Confirmer l'ID de pari",
-      "Confirm Bet ID": "Confirm Bet ID",
-      "Nom de l'utilisateur": "Nom de l'utilisateur",
-      "User Name": "User Name",
-      "ID de pari": "ID de pari",
-      "Bet ID": "Bet ID",
-      "Appareil": "Appareil",
-      "Device": "Device",
-      "Annuler": "Annuler",
-      "Cancel": "Cancel",
-      "Confirmer": "Confirmer",
-      "Confirm": "Confirm",
-      "ID de pari invalide": "ID de pari invalide",
-      "Invalid Bet ID": "Invalid Bet ID",
-      "L'ID de pari est invalide ou n'existe pas.": "L'ID de pari est invalide ou n'existe pas.",
-      "Bet ID is invalid or does not exist.": "Bet ID is invalid or does not exist.",
-      "Échec de la validation de l'ID de pari. Veuillez réessayer.": "Échec de la validation de l'ID de pari. Veuillez réessayer.",
-      "Failed to validate Bet ID. Please try again.": "Failed to validate Bet ID. Please try again.",
-      "ID de pari ajouté avec succès !": "ID de pari ajouté avec succès !",
-      "Bet ID added successfully!": "Bet ID added successfully!",
-      "Fermer": "Fermer",
-      
-      "Failed to add bet ID": "Failed to add bet ID",
-
-      "Veuillez sélectionner une application et saisir un ID de pari.": "Veuillez sélectionner une application et saisir un ID de pari.",
-      "Please select an app and enter a bet ID.": "Please select an app and enter a bet ID.",
-      "Vous devez être connecté pour ajouter un ID de pari.": "Vous devez être connecté pour ajouter un ID de pari.",
-      "You must be logged in to add a bet ID.": "You must be logged in to add a bet ID.",
-      "No account was found with the ID {{betid}}. Make sure it is spelled correctly and try again.": "No account was found with the ID {{betid}}. Make sure it is spelled correctly and try again.",
-      "Transaction initiated successfully!": "Transaction initiated successfully!",
+      // Removed: Deposit, Withdraw, Coupon, Bet-related translations
 
       // CryptoTransactionForm translations
       "Please verify your account to buy or sell crypto.": "Veuillez vérifier votre compte pour acheter ou vendre de la crypto.",
@@ -308,8 +197,8 @@ const resources = {
       "Please fill all fields and confirm your phone number.": "Veuillez remplir tous les champs et confirmer votre numéro de téléphone.",
       "Please select a network.": "Veuillez sélectionner un réseau.",
       "Wallet links do not match.": "Wallet links do not match.",
-      "Please fill all fields and confirm your phone number.": "Please fill all fields and confirm your phone number.",
-      "Please select a network.": "Please select a network.",
+     
+     
       "Transaction failed. Please try again.": "Transaction failed. Please try again.",
       "Please fill all fields.": "Please fill all fields.",
       "Please fill all fields and confirm your wallet link.": "Please fill all fields and confirm your wallet link.",
@@ -511,110 +400,7 @@ const resources = {
       "Mark as unread": "Marquer comme non lu",
 
 
-      // Withdraw Page translations
-      "Phone Number":"Numéro de téléphone",
-      "Withdraw from your account": "Retirer de votre compte",
-      "Please fill in all fields": "Veuillez remplir tous les champs",
-      "Phone numbers do not match": "Les numéros de téléphone ne correspondent pas",
-      "Withdrawal request submitted successfully!": "Demande de retrait soumise avec succès !",
-      "Something went wrong. Please try again.": "Une erreur s'est produite. Veuillez réessayer.",
-      "Network error. Please check your connection and try again.": "Erreur réseau. Veuillez vérifier votre connexion et réessayer.",
-      "Take Note": "Prenez note",
-      "The currency of your account must be in XOF": "La devise de votre compte doit être en XOF",
-      "CITY": "VILLE",
-      "STREET": "RUE",
-      "ID": "ID",
-      "Enter ID": "Entrez l'ID",
-      "Withdrawal Code": "Code de retrait",
-      "Enter your withdrawal code": "Entrez votre code de retrait",
-      "Enter number": "Entrez le numéro",
-      "Confirm Number": "Confirmez le numéro",
-      "Enter Confirm number": "Entrez le numéro de confirmation",
-      "Network": "Réseau",
-      "Processing...": "Traitement...",
-      "Submit my request": "Soumettre ma demande",
-
-
-      "Withdraw Funds":"Retirer des fonds",
-      
-      // Deposit Page translations
-      "Deposit Funds":"Déposer des fonds",
-      "Select Bet ID":"Sélectionnez l'ID de pari",
-      "Enter Details":"Entrez les détails",
-      "Select Network":"Sélectionnez le réseau",
-      "Select Your Betting Platform":"Sélectionnez votre plateforme de paris",
-     
-      "Back to Bet IDs":"Retour aux ID de pari",
-      "Selected Bet ID":"ID de pari sélectionné",
-
-      "Submit":"Soumettre",
-
-      "Deposit to your account": "Déposez sur votre compte",
-      "Deposit to your account here": "Déposez sur votre compte ici",
-      "Click to continue payment": "Cliquez pour continuer le paiement",
-
-
-      "Make deposits to your account": "Effectuez des dépôts sur votre compte",
-      "Make your deposits to your account here": "Effectuez vos dépôts sur votre compte ici",
-      
-      "IMPORTANT": "IMPORTANT",
-      "Your account currency must be in XOF.": "La devise de votre compte doit être en XOF.",
-      
-      "Enter your 1xbet user ID": "Entrez votre ID utilisateur 1xbet",
-      "Enter your ID": "Entrez votre ID",
-      "Enter or select your betting app ID" : "Entrez ou sélectionnez votre ID de l'application de paris",
-      "Enter your betting app ID or select from saved IDs.":" Entrez votre ID de l'application de paris ou sélectionnez-en un enregistré.",
-      "Selected App": "Sélectionnez l'ID",
-      "Saved IDs": "IDs enregistrés",
-      "Unknown App" : "Appareil inconnu",
-
-
-      "This is your 1xbet user ID": "Ceci est votre ID utilisateur 1xbet",
-      "Amount": "Montant",
-      "Enter deposit amount": "Entrez le montant du dépôt",
-      
-      "Enter your mobile money number": "Entrez votre numéro de mobile money",
-      "Your mobile money number": "Votre numéro de mobile money",
-      
-      "Please select a network": "Veuillez sélectionner un réseau",
-      
-      "Proceed": "Procéder",
-      "Deposit successful! Transaction ID:": "Dépôt réussi ! ID de transaction :",
-      "Failed to load necessary data. Please try again later.": "Échec du chargement des données nécessaires. Veuillez réessayer plus tard.",
-      "Error fetching data:": "Erreur lors de la récupération des données :",
-      "Error processing deposit:": "Erreur lors du traitement du dépôt :",
-      "Failed to process deposit. Please try again.": "Échec du traitement du dépôt. Veuillez réessayer.",
-      "You must be logged in to access this feature.": "Vous devez être connecté pour accéder à cette fonctionnalité.",
-
-      // Modal and Bet ID management translations
-      "Confirmer l'ID de pari": "Confirmer l'ID de pari",
-      "Confirm Bet ID": "Confirm Bet ID",
-      "Nom de l'utilisateur": "Nom de l'utilisateur",
-      "User Name": "User Name",
-      "ID de pari": "ID de pari",
-      "Bet ID": "Bet ID",
-      "Appareil": "Appareil",
-      "Device": "Device",
-      "Annuler": "Annuler",
-      "Cancel": "Cancel",
-      "Confirmer": "Confirmer",
-      "Confirm": "Confirm",
-      "ID de pari invalide": "ID de pari invalide",
-      "Invalid Bet ID": "Invalid Bet ID",
-      "L'ID de pari est invalide ou n'existe pas.": "L'ID de pari est invalide ou n'existe pas.",
-      "Bet ID is invalid or does not exist.": "Bet ID is invalid or does not exist.",
-      "Échec de la validation de l'ID de pari. Veuillez réessayer.": "Échec de la validation de l'ID de pari. Veuillez réessayer.",
-      "Failed to validate Bet ID. Please try again.": "Failed to validate Bet ID. Please try again.",
-      "ID de pari ajouté avec succès !": "ID de pari ajouté avec succès !",
-      "Bet ID added successfully!": "Bet ID added successfully!",
-      "Fermer": "Fermer",
-      "Failed to add bet ID": "Échec de l'ajout de l'ID de pari",
-      "Veuillez sélectionner une application et saisir un ID de pari.": "Veuillez sélectionner une application et saisir un ID de pari.",
-      "Please select an app and enter a bet ID.": "Please select an app and enter a bet ID.",
-      "Vous devez être connecté pour ajouter un ID de pari.": "Vous devez être connecté pour ajouter un ID de pari.",
-      "You must be logged in to add a bet ID.": "You must be logged in to add a bet ID.",
-      "No account was found with the ID {{betid}}. Make sure it is spelled correctly and try again.": "Aucun compte n'a été trouvé avec l'ID {{betid}}. Vérifiez l'orthographe et réessayez.",
-      "Transaction initiated successfully!": "Transaction initiée avec succès !",
+      // Removed: Deposit, Withdraw, Coupon, Bet-related translations
 
       // CryptoTransactionForm translations
       "Please verify your account to buy or sell crypto.": "Veuillez vérifier votre compte pour acheter ou vendre de la crypto.",
@@ -644,8 +430,8 @@ const resources = {
       "Please fill all fields and confirm your phone number.": "Veuillez remplir tous les champs et confirmer votre numéro de téléphone.",
       "Please select a network.": "Veuillez sélectionner un réseau.",
       "Wallet links do not match.": "Les liens du portefeuille ne correspondent pas.",
-      "Please fill all fields and confirm your phone number.": "Veuillez remplir tous les champs et confirmer votre numéro de téléphone.",
-      "Please select a network.": "Veuillez sélectionner un réseau.",
+      
+      
       "Transaction failed. Please try again.": "La transaction a échoué. Veuillez réessayer.",
       "Please fill all fields.": "Veuillez remplir tous les champs.",
       "Please fill all fields and confirm your wallet link.": "Veuillez remplir tous les champs et confirmer votre lien de portefeuille.",

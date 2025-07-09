@@ -1389,8 +1389,18 @@ function CryptoPage() {
     const [showSuccessModal, setShowSuccessModal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [successMessage, setSuccessMessage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [selectedCrypto, setSelectedCrypto] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [showTypeModal, setShowTypeModal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true); // Show Buy/Sell modal first
     const [typeTrans, setTypeTrans] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null); // 'buy' or 'sale'
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "CryptoPage.useEffect": ()=>{
+            // Set typeTrans from query param: 'buy' for Buy Crypto, 'sale' for Sell Crypto
+            let type = 'buy';
+            if ("TURBOPACK compile-time truthy", 1) {
+                const params = new URLSearchParams(window.location.search);
+                type = params.get('type') === 'sell' ? 'sale' : 'buy';
+            }
+            setTypeTrans(type);
+        }
+    }["CryptoPage.useEffect"], []);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "CryptoPage.useEffect": ()=>{
             // Fetch cryptos only if typeTrans is selected
@@ -1576,19 +1586,6 @@ function CryptoPage() {
             title: t("Checking..."),
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$im$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ImSpinner2"], {}, void 0, false, {
                 fileName: "[project]/src/app/crypto/page.tsx",
-                lineNumber: 219,
-                columnNumber: 11
-            }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/app/crypto/page.tsx",
-            lineNumber: 215,
-            columnNumber: 9
-        }, this);
-        if (userVerified === true) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: `${baseClass} ${sizeClass} ${mobileClass} bg-green-500 text-white`,
-            title: t("Verified"),
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCheckCircle"], {}, void 0, false, {
-                fileName: "[project]/src/app/crypto/page.tsx",
                 lineNumber: 228,
                 columnNumber: 11
             }, this)
@@ -1597,80 +1594,36 @@ function CryptoPage() {
             lineNumber: 224,
             columnNumber: 9
         }, this);
+        if (userVerified === true) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: `${baseClass} ${sizeClass} ${mobileClass} bg-green-500 text-white`,
+            title: t("Verified"),
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCheckCircle"], {}, void 0, false, {
+                fileName: "[project]/src/app/crypto/page.tsx",
+                lineNumber: 237,
+                columnNumber: 11
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/crypto/page.tsx",
+            lineNumber: 233,
+            columnNumber: 9
+        }, this);
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: `${baseClass} ${sizeClass} ${mobileClass} bg-yellow-400 text-white`,
             title: t("Not Verified"),
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaExclamationTriangle"], {}, void 0, false, {
                 fileName: "[project]/src/app/crypto/page.tsx",
-                lineNumber: 236,
+                lineNumber: 245,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/crypto/page.tsx",
-            lineNumber: 232,
+            lineNumber: 241,
             columnNumber: 7
         }, this);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `min-h-screen bg-gradient-to-br ${theme.colors.a_background} p-2 sm:p-4 flex flex-col items-center`,
         children: [
-            showTypeModal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm px-2 sm:px-0",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `bg-gradient-to-r ${theme.colors.a_background} rounded-2xl shadow-2xl p-6 sm:p-8 w-full max-w-xs sm:max-w-md relative flex flex-col items-center`,
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-lg sm:text-xl font-bold mb-4 text-center",
-                            children: t("Choose Transaction Type")
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/crypto/page.tsx",
-                            lineNumber: 247,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-4 w-full",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "w-full px-6 py-3 bg-green-600 text-white rounded-lg text-lg font-semibold hover:bg-green-700 transition-all",
-                                    onClick: ()=>{
-                                        setTypeTrans('buy');
-                                        setShowTypeModal(false);
-                                    },
-                                    children: t("Buy Crypto")
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/crypto/page.tsx",
-                                    lineNumber: 249,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "w-full px-6 py-3 bg-yellow-500 text-white rounded-lg text-lg font-semibold hover:bg-yellow-600 transition-all",
-                                    onClick: ()=>{
-                                        setTypeTrans('sale');
-                                        setShowTypeModal(false);
-                                    },
-                                    children: t("Sell Crypto")
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/crypto/page.tsx",
-                                    lineNumber: 258,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/crypto/page.tsx",
-                            lineNumber: 248,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/app/crypto/page.tsx",
-                    lineNumber: 246,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/crypto/page.tsx",
-                lineNumber: 245,
-                columnNumber: 9
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 onClick: ()=>window.history.back(),
                 className: `fixed top-3 left-3 z-50 w-10 h-10 flex items-center justify-center rounded-full shadow-md
@@ -1683,12 +1636,12 @@ function CryptoPage() {
                     className: "text-xl"
                 }, void 0, false, {
                     fileName: "[project]/src/app/crypto/page.tsx",
-                    lineNumber: 278,
+                    lineNumber: 261,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/crypto/page.tsx",
-                lineNumber: 271,
+                lineNumber: 254,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1702,7 +1655,7 @@ function CryptoPage() {
                                 children: t("Cryptocurrencies")
                             }, void 0, false, {
                                 fileName: "[project]/src/app/crypto/page.tsx",
-                                lineNumber: 282,
+                                lineNumber: 265,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1710,13 +1663,13 @@ function CryptoPage() {
                                 children: renderStatusButton()
                             }, void 0, false, {
                                 fileName: "[project]/src/app/crypto/page.tsx",
-                                lineNumber: 283,
+                                lineNumber: 266,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/crypto/page.tsx",
-                        lineNumber: 281,
+                        lineNumber: 264,
                         columnNumber: 9
                     }, this),
                     error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1724,10 +1677,10 @@ function CryptoPage() {
                         children: error
                     }, void 0, false, {
                         fileName: "[project]/src/app/crypto/page.tsx",
-                        lineNumber: 285,
+                        lineNumber: 268,
                         columnNumber: 19
                     }, this),
-                    typeTrans && !showTypeModal && (selectedCrypto ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                    typeTrans && (selectedCrypto ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 className: `mb-4 flex items-center gap-2 rounded-lg shadow-sm font-semibold transition-all
@@ -1744,7 +1697,7 @@ function CryptoPage() {
                                         className: "text-lg sm:mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                        lineNumber: 300,
+                                        lineNumber: 283,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1752,13 +1705,13 @@ function CryptoPage() {
                                         children: t('Back to Cryptos')
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                        lineNumber: 301,
+                                        lineNumber: 284,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/crypto/page.tsx",
-                                lineNumber: 289,
+                                lineNumber: 272,
                                 columnNumber: 13
                             }, this),
                             (typeTrans === 'buy' || typeTrans === 'sale') && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CryptoTransactionForm$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1767,7 +1720,7 @@ function CryptoPage() {
                                 typeTrans: typeTrans
                             }, void 0, false, {
                                 fileName: "[project]/src/app/crypto/page.tsx",
-                                lineNumber: 304,
+                                lineNumber: 287,
                                 columnNumber: 15
                             }, this)
                         ]
@@ -1777,12 +1730,12 @@ function CryptoPage() {
                             className: "animate-spin rounded-full h-10 w-10 sm:h-12 sm:w-12 border-4 border-blue-500/30 border-t-blue-500"
                         }, void 0, false, {
                             fileName: "[project]/src/app/crypto/page.tsx",
-                            lineNumber: 313,
+                            lineNumber: 296,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/crypto/page.tsx",
-                        lineNumber: 312,
+                        lineNumber: 295,
                         columnNumber: 11
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6",
@@ -1796,7 +1749,7 @@ function CryptoPage() {
                                         className: "w-10 h-10 sm:w-12 sm:h-12 object-contain mb-3 sm:mb-4 rounded-full border border-slate-300 bg-white"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                        lineNumber: 323,
+                                        lineNumber: 306,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1804,7 +1757,7 @@ function CryptoPage() {
                                         children: crypto.name
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                        lineNumber: 324,
+                                        lineNumber: 307,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1812,7 +1765,7 @@ function CryptoPage() {
                                         children: crypto.symbol
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                        lineNumber: 325,
+                                        lineNumber: 308,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1823,18 +1776,18 @@ function CryptoPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                        lineNumber: 326,
+                                        lineNumber: 309,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, crypto.id, true, {
                                 fileName: "[project]/src/app/crypto/page.tsx",
-                                lineNumber: 318,
+                                lineNumber: 301,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/crypto/page.tsx",
-                        lineNumber: 316,
+                        lineNumber: 299,
                         columnNumber: 11
                     }, this)),
                     showVerifyModal && !userVerified && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1847,7 +1800,7 @@ function CryptoPage() {
                                     children: t("Account Verification Required")
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                    lineNumber: 336,
+                                    lineNumber: 319,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1861,7 +1814,7 @@ function CryptoPage() {
                                                     children: t("Upload your image (face)")
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                                    lineNumber: 339,
+                                                    lineNumber: 322,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1871,7 +1824,7 @@ function CryptoPage() {
                                                     className: "w-full text-xs sm:text-sm border rounded p-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                                    lineNumber: 340,
+                                                    lineNumber: 323,
                                                     columnNumber: 19
                                                 }, this),
                                                 userImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1882,18 +1835,18 @@ function CryptoPage() {
                                                         className: "h-20 w-20 object-cover rounded shadow"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                                        lineNumber: 348,
+                                                        lineNumber: 331,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                                    lineNumber: 347,
+                                                    lineNumber: 330,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/crypto/page.tsx",
-                                            lineNumber: 338,
+                                            lineNumber: 321,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1904,7 +1857,7 @@ function CryptoPage() {
                                                     children: t("Upload your card image (ID card)")
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                                    lineNumber: 353,
+                                                    lineNumber: 336,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1914,7 +1867,7 @@ function CryptoPage() {
                                                     className: "w-full text-xs sm:text-sm border rounded p-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                                    lineNumber: 354,
+                                                    lineNumber: 337,
                                                     columnNumber: 19
                                                 }, this),
                                                 cardImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1925,18 +1878,18 @@ function CryptoPage() {
                                                         className: "h-20 w-20 object-cover rounded shadow"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                                        lineNumber: 362,
+                                                        lineNumber: 345,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                                    lineNumber: 361,
+                                                    lineNumber: 344,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/crypto/page.tsx",
-                                            lineNumber: 352,
+                                            lineNumber: 335,
                                             columnNumber: 17
                                         }, this),
                                         uploadError && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1944,7 +1897,7 @@ function CryptoPage() {
                                             children: uploadError
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/crypto/page.tsx",
-                                            lineNumber: 366,
+                                            lineNumber: 349,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1958,7 +1911,7 @@ function CryptoPage() {
                                                     children: t("Cancel")
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                                    lineNumber: 368,
+                                                    lineNumber: 351,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1968,30 +1921,30 @@ function CryptoPage() {
                                                     children: uploading ? t("Uploading...") : t("Upload & Submit")
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                                    lineNumber: 376,
+                                                    lineNumber: 359,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/crypto/page.tsx",
-                                            lineNumber: 367,
+                                            lineNumber: 350,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                    lineNumber: 337,
+                                    lineNumber: 320,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/crypto/page.tsx",
-                            lineNumber: 335,
+                            lineNumber: 318,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/crypto/page.tsx",
-                        lineNumber: 334,
+                        lineNumber: 317,
                         columnNumber: 11
                     }, this),
                     showSuccessModal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2004,7 +1957,7 @@ function CryptoPage() {
                                     children: t("Success")
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                    lineNumber: 393,
+                                    lineNumber: 376,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2012,7 +1965,7 @@ function CryptoPage() {
                                     children: successMessage
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                    lineNumber: 394,
+                                    lineNumber: 377,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2023,39 +1976,39 @@ function CryptoPage() {
                                         children: t("Close")
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/crypto/page.tsx",
-                                        lineNumber: 396,
+                                        lineNumber: 379,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/crypto/page.tsx",
-                                    lineNumber: 395,
+                                    lineNumber: 378,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/crypto/page.tsx",
-                            lineNumber: 392,
+                            lineNumber: 375,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/crypto/page.tsx",
-                        lineNumber: 391,
+                        lineNumber: 374,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/crypto/page.tsx",
-                lineNumber: 280,
+                lineNumber: 263,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/crypto/page.tsx",
-        lineNumber: 242,
+        lineNumber: 251,
         columnNumber: 5
     }, this);
 }
-_s(CryptoPage, "qk8MixmudqccMIZ39BHpXQENpnE=", false, function() {
+_s(CryptoPage, "sulz4WZuZurWeWt/t/mm00khsjs=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],
         __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ThemeProvider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTheme"]
